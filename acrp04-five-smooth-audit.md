@@ -1,10 +1,11 @@
 ---
 title: "Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim"
 author: "Rowan Brad Quni-Gudzinas"
-date: "2026-07-31"
+date: "2026-08-02"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-status: "draft"
-version: "1.1"
+doi: "10.5281/zenodo.21754151"
+status: "published"
+version: "1.3"
 ---
 
 # Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim
