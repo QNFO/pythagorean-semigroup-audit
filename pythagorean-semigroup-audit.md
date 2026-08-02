@@ -4,7 +4,7 @@ author: "Rowan Brad Quni-Gudzinas"
 date: "2026-07-31"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 status: "draft"
-version: "1.0"
+version: "1.1"
 ---
 
 # Statistical Audit of the Pythagorean Semigroup Mass-Ratio Claim
@@ -117,7 +117,7 @@ Even at the restrictive bound $B = 8$, 70% of random ratios fit within 0.29%. Th
 
 1. **"Random targets would require larger exponents."** FALSE. At $B = 14$, the median random-target best fit is 0.05% — indistinguishable from the observed fits. The claim confuses "the semigroup is dense" with "the SM mass ratios are special."
 2. **"The same three primes serve all ratios."** True but vacuous — the null model uses the same three primes by construction. The property carries no evidential weight.
-3. **"Deviations should shrink monotonically with precision."** DISCONFIRMED. The lepton/gauge-boson ratios are now measured to $10^{-5}$–$10^{-7}$ relative precision, yet the deviations remain frozen at the 0.02–0.3% level set by the (fixed) 3-smooth fits. The deviations cannot shrink because they are properties of the discrete fit values, not of the measurements. Measured $m_\mu/m_e = 206.76828 \pm 0.00001$; best fit 206.727 — a 9,138σ discrepancy.
+3. **"Deviations should shrink monotonically with precision."** DISCONFIRMED. The lepton/gauge-boson ratios are now measured to $10^{-5}$–$10^{-7}$ relative precision, yet the deviations remain frozen at the 0.02–0.3% level set by the (fixed) 3-smooth fits. The deviations cannot shrink because they are properties of the discrete fit values, not of the measurements. Measured $m_\mu/m_e = 206.76828 \pm 0.00001$; best fit 206.727 — a 8,943σ discrepancy.
 
 ## 4. RQ4.2 — PDG 2024 Uncertainties
 
@@ -125,7 +125,7 @@ Current PDG 2024 reference values with propagated (quadrature) uncertainties, co
 
 | Ratio | PDG 2024 value | Optimal fit | Deviation | Deviation in σ |
 |:------|:---------------|:------------|:----------|:---------------|
-| $m_\mu/m_e$ | 206.76828(5) | 206.727 | 0.02% | **9,138** |
+| $m_\mu/m_e$ | 206.76828(5) | 206.727 | 0.02% | **8,943** |
 | $m_\tau/m_e$ | 3477.23(24) | 3476.14 | 0.03% | 4.6 |
 | $m_\tau/m_\mu$ | 16.8170(11) | 16.824 | 0.04% | 5.7 |
 | $m_t/m_c$ | 135.98(2.2) | 136.53 | 0.41% | 0.3 |
@@ -137,7 +137,7 @@ Current PDG 2024 reference values with propagated (quadrature) uncertainties, co
 
 Two regimes emerge:
 
-- **Precisely measured ratios (leptons, gauge bosons):** deviations of 4–9,138σ. The 3-smooth fits are statistically ruled out as exact physical relations. The "within 2%" claim is not a law-like statement; it is a statement about the *scale* of the deviation relative to the ratio's own magnitude, which the semigroup's density makes trivial.
+- **Precisely measured ratios (leptons, gauge bosons):** deviations of 4–8,943σ. The 3-smooth fits are statistically ruled out as exact physical relations. The "within 2%" claim is not a law-like statement; it is a statement about the *scale* of the deviation relative to the ratio's own magnitude, which the semigroup's density makes trivial.
 - **Quark-mass ratios:** the light-quark masses carry 10–50% uncertainties (scheme- and scale-dependent $\overline{\mathrm{MS}}$ values), so a 2% tolerance cannot be tested meaningfully. $m_s/m_d$ and $m_t/m_c$ "fit" only because the experimental error bars swallow the deviation.
 
 ## 5. RQ4.4 — Pre-Registered Neutrino Prediction
@@ -166,7 +166,7 @@ The null model shows $P(\text{best-fit} \leq 0.29\%) = 0.9998$ for *any* ratio i
 
 - **Arithmetic errors:** two of nine claimed fits do not compute (m_τ/m_μ, m_h/m_e); five of nine are non-optimal. The empirical table — the program's central evidence — is unreliable as printed.
 - **Density:** 99.8% of random nine-ratio sets fit within the claimed tolerance. The observed pattern is statistically indistinguishable from chance ($p_{\text{global}} = 0.116$; Bonferroni $p = 1.0$).
-- **Exactness ruled out:** the precisely measured ratios deviate by 4–9,138σ from their best fits. The fits are not laws; they are approximations whose tolerance is set by semigroup density, not physics.
+- **Exactness ruled out:** the precisely measured ratios deviate by 4–8,943σ from their best fits. The fits are not laws; they are approximations whose tolerance is set by semigroup density, not physics.
 - **Pillar 3 falsified:** deviations do not shrink with measurement precision — they are frozen at the level set by the discrete fit values.
 - **Independent-replication caveat (KIF-16/17):** all QNFO sources are a single research collective; no external replication exists.
 
