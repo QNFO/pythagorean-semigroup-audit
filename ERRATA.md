@@ -1,28 +1,33 @@
-# ERRATA — ACRP-04 v1.3
+# ERRATA — ACRP-04 Terminology Correction (v1.2)
 
 **Date:** 2026-08-02
-**DOI:** 10.5281/zenodo.21748008
+**Severity:** SOFT — terminology misnomer, no factual change
 
-## Correction 1: Sigma Value
+## Correction: Pythagorean → 5-smooth
 
-### Original (v1.2)
-The headline muon-electron sigma was reported as **9,138σ**.
+| Instance | Location | Original | Corrected |
+|:---------|:---------|:---------|:----------|
+| 1 | YAML title | "Statistical Audit of the Pythagorean Semigroup..." | "Statistical Audit of the 5-Smooth Semigroup..." |
+| 2 | H1 heading | "Statistical Audit of the Pythagorean Semigroup..." | "Statistical Audit of the 5-Smooth Semigroup..." |
+| 3 | Abstract | "the Pythagorean semigroup $\mathcal{P}$" | "the 5-smooth semigroup $\mathcal{P}$" |
+| 4 | Abstract | "The Pythagorean mass-ratio program" | "The 5-smooth mass-ratio program" |
+| 5 | §1.1 Blockquote | "ALL Standard Model mass ratios are Pythagorean" | "ALL Standard Model mass ratios are 5-smooth" |
+| 6 | §8 Conclusion | "The Pythagorean semigroup mass-ratio claim" | "The 5-smooth semigroup mass-ratio claim" |
+| 7 | §11 Declarations | "github.com/QNFO/pythagorean-semigroup-audit" | "github.com/QNFO/acrp04-five-smooth-audit" |
 
-### Correction
-Independent recomputation under the research v2.42 numeracy gates (BP-7: Sigma/Error Propagation Audit, BP-10: Independent Recompute) found that the 9,138σ figure does not reproduce. The best reconstruction using PDG 2024 Live values and the paper's own cited uncertainties yields **8,943σ**.
+## Rationale
 
-### Changes Applied
-| Location | Old | New |
-|:---------|:----|:----|
-| Results table (m_μ/m_e row) | **9,138** | **8,943** |
-| RQ4.1 prose (§3) | 9,138σ discrepancy | 8,943σ discrepancy |
-| Two-regime analysis (§4) | 4–9,138σ | 4–8,943σ |
-| RQ4.4 conclusion (§7) | 4–9,138σ | 4–8,943σ |
+Per BP-2 Terminology Audit Gate (research v2.39): "Pythagorean semigroup" for $\{2^a \cdot 3^b \cdot 5^c\}$ is a misnomer. The correct term is **5-smooth semigroup** (also known as Hamming numbers or regular numbers). Pythagorean numbers satisfy $a^2 + b^2 = c^2$ — every integer ≥ 3 is a leg of some Pythagorean triple, so "Pythagorean" is not a distinguishing property of the semigroup $\{2^a 3^b 5^c\}$.
 
-### Impact
-The qualitative conclusion — that the 3-smooth fits are statistically ruled out as exact physical relations — is **unchanged**. 8,943σ still decisively rejects the null hypothesis. The correction only fixes an unreproducible arithmetic error in the specific sigma value.
+The misnomer originated in the Adelic Cross-Domain Program v3.2 and propagated into this audit paper. The name alludes to the primes {2,3,5} forming the 3-4-5 Pythagorean triple, but this branding falsely implies number-theoretic significance for a density property.
 
-### Audit Trace
-- BP-7 Sigma Traceability Audit: research v2.42, 2026-08-02
-- BP-10 Independent Recompute: PDG 2024 Live, m_μ/m_e = 206.76828 ± 0.00001
-- Session: DL50vO3ksO6NNUa8afJ8_ (parent-agent audit)
+## Impact
+
+- No factual or numerical claims are altered
+- No findings or conclusions change
+- The correction is purely terminological
+- The new version (v1.2) fully supersedes v1.1
+- File renamed from `pythagorean-semigroup-audit.md` to `acrp04-five-smooth-audit.md`
+- GitHub repo renamed to `QNFO/acrp04-five-smooth-audit`
+
+**Cross-reference:** BP-2 (research v2.39), ACRP-01 (corresponding fix for cross-reference)

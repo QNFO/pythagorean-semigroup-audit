@@ -1,5 +1,5 @@
 ---
-title: "Statistical Audit of the Pythagorean Semigroup Mass-Ratio Claim"
+title: "Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim"
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-07-31"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
@@ -7,7 +7,7 @@ status: "draft"
 version: "1.1"
 ---
 
-# Statistical Audit of the Pythagorean Semigroup Mass-Ratio Claim
+# Statistical Audit of the 5-Smooth Semigroup Mass-Ratio Claim
 
 **Author:** Rowan Brad Quni-Gudzinas (QNFO Research) | **Date:** 2026-07-31
 **Program:** ACRP-04 | **License:** QNFO-ULA
@@ -16,7 +16,7 @@ version: "1.1"
 
 ## Abstract
 
-The Adelic Cross-Domain Program v3.2 claims that the Pythagorean semigroup $\mathcal{P} = \{2^a 3^b 5^c \mid a,b,c \in \mathbb{Z}\}$ encodes all Standard Model mass ratios to within 2% (nine fitted ratios, maximum claimed deviation 0.29%, exponent bound $|a|,|b|,|c| \leq 14$). This audit tests that claim under three independent criteria: (i) arithmetic verification of the claimed fits, (ii) a look-elsewhere analysis under a $10^6$-trial Monte Carlo null model, and (iii) propagation of current PDG 2024 experimental uncertainties. A fourth criterion — a pre-registered neutrino mass-squared splitting prediction — was registered before computation. **Verdict: the fit is consistent with a look-elsewhere artifact.** Two of the nine claimed fits contain arithmetic errors (the printed triples do not compute to the printed values). Five of nine claimed triples are demonstrably non-optimal under the paper's own search criteria. Under the null model, 99.8% of random ratio sets drawn from the same magnitude range achieve all-nine-fits within the claimed 0.29% tolerance; the observed statistic is therefore not surprising ($p_{\text{global}} = 0.116$, Bonferroni-adjusted $p = 1.0$). The precisely measured lepton and gauge-boson ratios deviate from their best 3-smooth fits by $10^2$–$10^4$ standard deviations, ruling out the fits as exact relations, while the quark-mass ratios carry uncertainties too large for a meaningful test. The pre-registered neutrino prediction passes trivially — it is consistent with the null model and therefore carries no confirmatory power. The Pythagorean mass-ratio program is published herewith as a bounded numerological risk, not a demonstrated law.
+The Adelic Cross-Domain Program v3.2 claims that the 5-smooth semigroup $\mathcal{P} = \{2^a 3^b 5^c \mid a,b,c \in \mathbb{Z}\}$ encodes all Standard Model mass ratios to within 2% (nine fitted ratios, maximum claimed deviation 0.29%, exponent bound $|a|,|b|,|c| \leq 14$). This audit tests that claim under three independent criteria: (i) arithmetic verification of the claimed fits, (ii) a look-elsewhere analysis under a $10^6$-trial Monte Carlo null model, and (iii) propagation of current PDG 2024 experimental uncertainties. A fourth criterion — a pre-registered neutrino mass-squared splitting prediction — was registered before computation. **Verdict: the fit is consistent with a look-elsewhere artifact.** Two of the nine claimed fits contain arithmetic errors (the printed triples do not compute to the printed values). Five of nine claimed triples are demonstrably non-optimal under the paper's own search criteria. Under the null model, 99.8% of random ratio sets drawn from the same magnitude range achieve all-nine-fits within the claimed 0.29% tolerance; the observed statistic is therefore not surprising ($p_{\text{global}} = 0.116$, Bonferroni-adjusted $p = 1.0$). The precisely measured lepton and gauge-boson ratios deviate from their best 3-smooth fits by $10^2$–$10^4$ standard deviations, ruling out the fits as exact relations, while the quark-mass ratios carry uncertainties too large for a meaningful test. The pre-registered neutrino prediction passes trivially — it is consistent with the null model and therefore carries no confirmatory power. The 5-smooth mass-ratio program is published herewith as a bounded numerological risk, not a demonstrated law.
 
 **Keywords:** 3-smooth numbers, mass ratios, look-elsewhere effect, numerology, PDG, Monte Carlo
 
@@ -26,7 +26,7 @@ The Adelic Cross-Domain Program v3.2 claims that the Pythagorean semigroup $\mat
 
 ### 1.1 Statement (v3.2 §7.2, verbatim structure)
 
-> "ALL Standard Model mass ratios are Pythagorean ($2^a \cdot 3^b \cdot 5^c$) to within approximately 1%."
+> "ALL Standard Model mass ratios are 5-smooth ($2^a \cdot 3^b \cdot 5^c$) to within approximately 1%."
 
 Nine ratios are fitted, with maximum claimed deviation 0.29%. The paper's own §7.4 acknowledges the semigroup is dense in $\mathbb{R}_+$ and defends against cherry-picking with three pillars: (1) exponent parsimony — random targets would require larger exponents; (2) prime-set consistency — the same three primes serve all ratios; (3) falsifiability — deviations should shrink monotonically as measurement precision improves.
 
@@ -174,7 +174,7 @@ The null model shows $P(\text{best-fit} \leq 0.29\%) = 0.9998$ for *any* ratio i
 
 **Verdict: `[CONSISTENT WITH LOOK-ELSEWHERE ARTIFACT]`**
 
-The Pythagorean semigroup mass-ratio claim of the Adelic Cross-Domain Program v3.2 does not survive statistical audit as evidence for structure. Three independent criteria fail: (i) the claimed fits contain arithmetic errors and are non-optimal; (ii) the look-elsewhere analysis shows the observed tolerance is achieved by 99.8% of random ratio sets ($p_{\text{global}} = 0.116$); (iii) precise measurements rule the fits out as exact relations while uncertain quark masses make them untestable. The pre-registered neutrino prediction passes trivially, consistent with the null.
+The 5-smooth semigroup mass-ratio claim of the Adelic Cross-Domain Program v3.2 does not survive statistical audit as evidence for structure. Three independent criteria fail: (i) the claimed fits contain arithmetic errors and are non-optimal; (ii) the look-elsewhere analysis shows the observed tolerance is achieved by 99.8% of random ratio sets ($p_{\text{global}} = 0.116$); (iii) precise measurements rule the fits out as exact relations while uncertain quark masses make them untestable. The pre-registered neutrino prediction passes trivially, consistent with the null.
 
 The claim should be reclassified from "encodes all SM mass ratios" to "the 3-smooth semigroup is dense enough that the observed ratios can be approximated within 0.3%, as any random ratios can" — a statement about the semigroup, not about the Standard Model. Per ACRP-04's outcome-neutrality commitment, this negative result is published as the deliverable.
 
@@ -203,7 +203,7 @@ Status: [RESOLVED — TRIVIAL PASS]
 
 ## 11. Declarations
 
-**Funding:** None. **Conflicts of Interest:** None. **Ethics:** No human subjects. **Consent:** N/A. **Author Contributions:** R.B.Q.-G. (single author). **Data Availability:** PDG 2024 and NuFIT 5.3 are public; computation scripts in companion repository. **Code Availability:** Repository: github.com/QNFO/pythagorean-semigroup-audit. **Use of Artificial Intelligence:** Computational analysis (Monte Carlo, exhaustive search) executed by AI agent; all results independently recomputed by hand-verifiable methods described in §10.
+**Funding:** None. **Conflicts of Interest:** None. **Ethics:** No human subjects. **Consent:** N/A. **Author Contributions:** R.B.Q.-G. (single author). **Data Availability:** PDG 2024 and NuFIT 5.3 are public; computation scripts in companion repository. **Code Availability:** Repository: github.com/QNFO/acrp04-five-smooth-audit. **Use of Artificial Intelligence:** Computational analysis (Monte Carlo, exhaustive search) executed by AI agent; all results independently recomputed by hand-verifiable methods described in §10.
 
 ## 12. Cross-References
 
